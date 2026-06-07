@@ -1,0 +1,13 @@
+{
+  "name": "studygenie",
+  "version": "1.0.0",
+  "description": "AI-powered study and interview preparation platform",
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "install:all": "cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": ["ai", "rag", "study-platform", "genai"],
+  "author": "Arush",
+  "license": "MIT"
+}
